@@ -1,0 +1,93 @@
+
+body{
+    padding: 50px 100px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 0px;
+}
+#text-box{
+    width: 99.2%;
+    height: 200px;
+    border: 2px solid aquamarine;
+    font-size: 18px;
+}
+
+ /********* Responsive CSS *********/
+
+   /* max-width: 992px */
+   @media only screen and (max-width: 992px) {
+            #text-box{
+                width: 99%;
+            }
+    }
+
+    /* max-width: 768px */
+  @media only screen and (max-width: 768px) {
+    #text-box{
+        width: 98.5%;
+        height: 150px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 22px;
+    }
+  }
+
+  /* max-width: 768px */
+  @media only screen and (max-width: 768px) {
+    #text-box{
+        width: 98.8%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+    body{
+        padding: 30px 50px;
+    }
+  }
+
+  /* max-width: 576px */
+  @media only screen and (max-width: 576px) {
+    #text-box{
+        width: 98.3%;
+    }
+    h1{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+    body{
+        padding: 20px 50px;
+    }
+  }
+
+  /* max-width: 320 */
+  @media only screen and (max-width: 320px) {
+    #text-box{
+        width: 97%;
+        height: 100px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 14px;
+    }
+    body{
+        padding: 0px 20px;
+    }
+  }
