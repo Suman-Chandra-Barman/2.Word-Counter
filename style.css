@@ -1,6 +1,5 @@
-
 body{
-    padding: 50px 100px;
+    padding: 25px 100px;
 }
 h1{
     text-align: center;
@@ -8,7 +7,7 @@ h1{
 }
 p{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     background-color: aquamarine;
     padding: 10px;
     margin: 0px;
@@ -17,23 +16,24 @@ p{
     width: 99.2%;
     height: 200px;
     border: 2px solid aquamarine;
-    font-size: 18px;
+    font-size: 16px;
 }
 
  /********* Responsive CSS *********/
 
-   /* max-width: 992px */
-   @media only screen and (max-width: 992px) {
-            #text-box{
-                width: 99%;
-            }
-    }
+    /* max-width: 1024px */
+    @media only screen and (max-width: 1025px) {
+        #text-box{
+            width: 99%;
+        }
+}
 
     /* max-width: 768px */
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 769px) {
     #text-box{
         width: 98.5%;
         height: 150px;
+        font-size: 15px;
     }
     h1{
         font-size: 25px;
@@ -43,10 +43,12 @@ p{
     }
   }
 
-  /* max-width: 768px */
-  @media only screen and (max-width: 768px) {
+
+   /* max-width: 576px */
+  @media only screen and (max-width: 577px) {
     #text-box{
-        width: 98.8%;
+        width: 98.4%;
+        font-size: 14px;
     }
     h1{
         font-size: 20px;
@@ -55,14 +57,16 @@ p{
         font-size: 18px;
     }
     body{
-        padding: 30px 50px;
+        padding: 10px 20px;
     }
-  }
+  } 
 
-  /* max-width: 576px */
-  @media only screen and (max-width: 576px) {
+  /* max-width: 414 */
+  @media only screen and (max-width: 415px) {
     #text-box{
-        width: 98.3%;
+        width: 97.7%;
+        height: 90px;
+        font-size: 14px;
     }
     h1{
         font-size: 18px;
@@ -71,15 +75,15 @@ p{
         font-size: 16px;
     }
     body{
-        padding: 20px 50px;
+        padding: 10px 10px;
     }
   }
 
   /* max-width: 320 */
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 321px) {
     #text-box{
         width: 97%;
-        height: 100px;
+        font-size: 12px;
     }
     h1{
         font-size: 15px;
@@ -88,6 +92,7 @@ p{
         font-size: 14px;
     }
     body{
-        padding: 0px 20px;
+        padding: 20px 5px;
     }
   }
+  /*********** End *************/
