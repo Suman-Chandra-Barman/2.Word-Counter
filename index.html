@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Word and character counter</h1>
-    <p><span id="words">0</span> Word and <span id="char">0</span> Characters</p>
+    <h1>Words and characters counter</h1>
+    <p><span id="words">0</span> words and <span id="char">0</span> characters</p>
     <textarea id="text-box" cols="30" rows="10"></textarea>
 
 
@@ -20,11 +20,11 @@
         let textBox = document.getElementById("text-box");
         textBox.addEventListener("input", function() {
            
-            // characters
+            // characters box
             let text = this.value;
             document.getElementById("char").innerHTML = text.length;
 
-            // words
+            // words box
             let words = text.trim();
             let word = words.split(" ")
             let cleanList = word.filter(function(elm){
@@ -35,5 +35,3 @@
     </script>
 </body>
 </html>
-
-
